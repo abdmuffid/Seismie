@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-orange {
+    color: #f97316;
+}
+
+.sidebar-nav .nav-link {
+    color: #555;
+    font-weight: 500;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+.sidebar-nav .nav-link.active {
+    background-color: #f97316 !important;
+    color: white !important;
+}
+
+.stat-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.filter-card {
+    border-left: 4px solid #f97316;
+}
+
+.sidebar {
+    min-height: 100vh;
+}
+
+.main-content {
+    background: #f9fafc;
+}
