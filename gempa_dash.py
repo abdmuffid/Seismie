@@ -177,6 +177,8 @@ app = dash.Dash(
     external_stylesheets=[dbc.themes.BOOTSTRAP],
     suppress_callback_exceptions=True
 )
+server = app.server
+
 app.title = "SeismoTrack - Earthquake Dashboard"
 
 # ----------------------------------------------------------------------
@@ -1573,3 +1575,4 @@ def update_analysis_page(selected_cluster, pathname):
 
 if __name__ == "__main__": 
     app.run(debug=True)
+
